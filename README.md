@@ -1,5 +1,18 @@
 # FunkyNERD ESP32 Relay Board
 
+## Specifications:
+
+* MCU: Espressif ESP32-WROOM-32-N4 ([Datasheet](docs/2108131730_Espressif-Systems-ESP32-WROOM-32-N4_C82899.pdf))
+* FLASH: 4MB
+* BLUETOOTH: v4.2 BR/EDR and BLE specification
+* WIFI: 802.11 b/g/n (802.11n up to 150 Mbps)
+* DC INPUT: 7-40 Volts
+* RELAY: 4x Optocoupler Isolated, 250VAC/10A, 30VDC/10A, Blue LED Indicator
+* EXPANSION: 18x GPIO w/ 2x 3.3V and GND
+* LED: Programmable Green LED on GPIO13
+* USB: 2.0 CH340 interface chip.  ([Driver download](http://www.wch-ic.com/search?q=CH340&t=downloads))
+* DIMENSIONS: 85mmx85mm ([3D Model](docs/3D_PCB1_2022-11-21.step))
+
 ## Quick start:
 
 ### Compiling Examples with **PlatformIO**
